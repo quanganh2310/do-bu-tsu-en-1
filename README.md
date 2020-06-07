@@ -1,17 +1,12 @@
-*Subject : Thực Hành Lập Trình WEB
-*
 
-*Giáo Viên : Tiến Sĩ . Nguyễn Nhất Hải 
 *
-## Project:  Mạng Xã Hội chia sẻ ảnh 
+## Project:  Mạng Xã Hội chia sẻ ảnh động vật
 ##      Team 02:
-*    Nguyễn Minh Dân (Leader)
-*    Nguyễn Đình Sơn 
-*    Hoàng Đình Hinh 
+*    Nguyễn Quang Anh
+*    Nguyễn Minh Dân 
+*    Nguyễn Đức Anh
+*    Đỗ Lê Quang
 ##    Work Assignment:
-1. Dân viết code phần xử lý luồng chính , comment , post
-1. Sơn viết code phần user 
-1. Hinh viết code phần Giao diện 
 ##    Kỹ Thuật sử dụng:
 *    Back-end:
 1. Ruby 2.4
