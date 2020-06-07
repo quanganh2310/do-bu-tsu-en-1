@@ -1,0 +1,36 @@
+			<div class="homepage">
+				<% if user_signed_in? %>
+					<div class='form-upload'>
+			    	<%= render 'upload_form' %>
+			  	</div>
+
+				<div class="posts">
+				  <% @posts.each do |post| %>
+				    <section class="post">
+				      <div class="user">
+			    	<div class="avatar">
+			      		<% if post.user.avatar.attached? %>
+			        	<%= image_tag post.user.avatar %>
+			      		<% end %>
+			    	</div>
+				    <div class="username">
+				      <%= post.user.username %>
+				    </div>
+				</div>
+				  <%= image_tag post.image, class: 'main-image' %>
+				  <div class="description">
+				    <%= post.description %>
+				  </div>
+				    </section>
+				  <% end %>
+				  <%= paginate @posts %>
+				</div>
+	            <% else %>
+	            <!---a href="<%= new_user_session_path%>">
+	              <i class="fa fa-sign-in"></i>
+	            </a--->
+	          <% end %>
+			</div>
+
+
+
